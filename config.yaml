@@ -28,6 +28,7 @@ enableEmoji: true
 
 # Site parameters
 params:
+  background: /images/background.jpg
   flagOverwrites:
   - languageCode: zh
     countryCode: cn

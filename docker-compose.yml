@@ -1,7 +1,16 @@
-server:
-    image: klakegg/hugo:0.78.2-ext-alpine
-    command: server
-    volumes:
-      - ".:/src"
+version: "3.5"
+
+services:
+  blog:
+    build: 
+      context: ./
+      args:
+        HUGO_CMD: 
+        HUGO_DESTINATION_ARG: /target
+        HUGO_ENV_ARG: production
+        HUGO_DIR: /src
     ports:
-      - "1313:1313"
+      - "1313:80"
+    container_name: "blog"
+    networks:
+      - default
