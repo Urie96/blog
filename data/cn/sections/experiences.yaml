@@ -1,0 +1,57 @@
+# section information
+section:
+  name: 经历
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 澳新银行营运服务（成都）有限公司
+    url: "https://www.anz.com.au/"
+    location: 四川成都
+    # company overview
+    overview: 从事与银行业务有关的系统、软件和信息技术的开发、销售、维护并提供相关技术支持；银行业务相关的数据处理、数据分析、对账、数据结算和后台服务（涉及许可经营的凭许可证经营）。
+  positions:
+  - designation: Golang后端开发实习生
+    start: 2019年11月
+    end: 至今
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design and develop XYZ tool for ABC task
+    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    - Lead backend team.
+
+- company:
+    name: 西门子工业自动化产品（成都）有限公司.
+    url: "https://www.siemens.com/"
+    location: 四川成都
+    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: 自动化测试实习生
+    start: 2019年6月
+    end: 2019年10月
+    responsibilities:
+    - Write lots of example codes.
+    - Read lots of examples.
+    - See lots of example videos.
+
+- company:
+    name: 中国科学技术大学.
+    url: "https://www.ustc.edu.cn"
+    location: 安徽合肥
+    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: 软件工程硕士
+    start: 2018年9月
+    end: 2021年6月
+    responsibilities:
+    - Write lots of example codes.
+    - Read lots of examples.
+    - See lots of example videos.
