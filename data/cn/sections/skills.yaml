@@ -12,15 +12,21 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Golang开发
-  icon: "/images/golang.png"
+  icon: "/images/sections/skills/golang.svg"
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
 
-- name: Go Development
-  icon: "/images/sections/skills/go.png"
+- name: Docker
+  icon: "/images/sections/skills/docker.svg"
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
 
-- name: Cloud Computing
-  icon: "/images/sections/skills/cloud.png"
+- name: Java开发
+  icon: "/images/sections/skills/java.svg"
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+- name: MySQL
+  icon: "/images/sections/skills/mysql.svg"
+  summary: "todo"
+
+- name: Vue
+  icon: "/images/sections/skills/vue.svg"
+  summary: "todo"

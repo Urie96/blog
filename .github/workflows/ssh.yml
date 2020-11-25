@@ -17,4 +17,6 @@ jobs:
           command: |
             cd /root/blog
             git pull
-            docker-compose up -d
+            git submodule update --init
+            ./deploy.sh
+            
