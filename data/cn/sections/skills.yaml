@@ -27,6 +27,18 @@ skills:
   icon: "/images/sections/skills/mysql.svg"
   summary: "todo"
 
-- name: Vue
+- name: Vue.js
   icon: "/images/sections/skills/vue.svg"
   summary: "todo"
+
+- name: Git
+  icon: "/images/sections/skills/git.svg"
+  summary: todo
+
+- name: 爬虫
+  icon: "/images/sections/skills/web-crawler.svg"
+  summary: todo
+
+- name: Node.js
+  icon: "/images/sections/skills/node.svg"
+  summary: todo

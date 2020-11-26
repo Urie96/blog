@@ -16,6 +16,8 @@ buttons:
   filter: "front-end"
 - name: 后端
   filter: "back-end"
+- name: 爬虫
+  filter: "crawler"
 - name: 实习
   filter: "intern"
 
@@ -28,12 +30,12 @@ projects:
   url: https://book.sweetlove.top
   # repo: https://github.com/Urie96/hackbook
   summary: todo
-  tags: ["front-end","back-end"]
+  tags: ["front-end","back-end","crawler"]
 
 - name: Northern Star
   logo: /images/sections/projects/northern-star.png
   role: 开发者
-  timeline: "2019/11 - 至今"
+  timeline: "2019/11 - 2020/6"
   summary: todo
   tags: ["back-end","intern"]
 
@@ -52,3 +54,11 @@ projects:
   repo: https://github.com/Urie96/weixin
   summary: todo
   tags: ["back-end"]
+
+- name: Love
+  logo: /images/sections/projects/love.svg
+  role: 独立开发者
+  timeline: "2020/6 - 2020/7"
+  url: https://huyue.sweetlove.top
+  summary: todo
+  tags: ["front-end"]
