@@ -11,29 +11,35 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Golang开发
+- name: Golang
+  url: https://golang.org/
   icon: "/images/sections/skills/golang.svg"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "后端开发的主力语言，1.5 年的 Go 开发经验。利用反射编写了许多通用工具函数并减少模版代码，熟悉 [GORM](https://gorm.io/)、[gRPC](https://www.grpc.io/)、[ProtoBuf](https://github.com/protocolbuffers/protobuf) 以及 [Go-Kit](https://github.com/go-kit/kit)。"
 
 - name: Docker
+  url: https://www.docker.com/
   icon: "/images/sections/skills/docker.svg"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "熟悉常用 Docker 命令、[Dockerfile](https://docs.docker.com/engine/reference/builder/)、[Docker compose](https://docs.docker.com/compose/)。利用 Docker 镜像打包缓存机制优化 Dockerfile ，利用 Dockerfile 多阶段创建大大缩小了服务镜像大小，解决了使用 [Alpine](https://www.alpinelinux.org/) 镜像过程中的诸多问题。"
 
-- name: Java开发
+- name: Java
+  url: https://www.java.com/zh-CN/
   icon: "/images/sections/skills/java.svg"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "初期学习阶段使用的语言。通过 Java 学习了集合类源码、JVM 以及设计模式，基于 [Spring Boot](https://spring.io/projects/spring-boot) 完成了课程设计-*留学信息系统*，基于 [Jemmy](http://wiki.netbeans.org/Jemmy) 实现了对大型电路编程软件 [LSC](https://new.siemens.com/cn/zh/products/automation/systems/industrial/plc/logo/logo-software.html#LOGOSoftComfort) 的自动化测试。"
 
 - name: MySQL
+  url: https://www.mysql.com/
   icon: "/images/sections/skills/mysql.svg"
-  summary: "todo"
+  summary: "熟悉常用 SQL 语法、事务及索引原理。在实习项目中通过 [FULLTEXT](https://dev.mysql.com/doc/refman/8.0/en/innodb-fulltext-index.html) 实现了对单词局部的搜索，利用覆盖索引避免回表，通过 Golang 实现具有记录和索引结构的内存关系数据库，以快速查询筛选条件的可选值。"
 
 - name: Vue.js
+  url: https://cn.vuejs.org/
   icon: "/images/sections/skills/vue.svg"
-  summary: "todo"
+  summary: "熟悉 2.0 基础语法。基于 Vue、[Vue Router](https://router.vuejs.org/zh/) 搭建了个人项目 [Hackbook](https://book.sweetlove.top) 的前端单页面应用，组件可以懒加载，路由跳转时不销毁跳转前的组件以避免浏览器前进后退时发起网络请求，除非路由参数更改。"
 
 - name: Git
+  url: https://git-scm.com/
   icon: "/images/sections/skills/git.svg"
-  summary: todo
+  summary: "熟悉 Git 常用命令。实习中使用 [GitLab](https://about.gitlab.com/)，工作外使用 [GitHub](https://github.com/)。"
 
 - name: 爬虫
   icon: "/images/sections/skills/web-crawler.svg"

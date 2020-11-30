@@ -19,7 +19,7 @@ resume: "files/resume.pdf"
 
 # a summary about you
 # You can use markdown syntax in the summary field.
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: '我是一个注重性能提升的后端开发者，空闲时也会写一些前端以及爬虫。**渴望知识**，爬取了[极客时间](https://time.geekbang.org/)及[拉勾教育](https://kaiwu.lagou.com/)两大知识付费平台的所有付费专栏及视频并部署到 [Hackbook](https://book.sweetlove.top)*(仅供个人学习使用)*。**编程兴趣浓厚**，编写通用工具函数深度优化了实习项目中许多接口，获得同事领导及用户的一致好评。**强烈好奇心**，探索事物本质，阅读并修改源码以满足需求。**喜欢数学**，高中期间自学了*高等数学*及*复变函数*，初中自学 [VBS](https://docs.microsoft.com/en-us/previous-versions/d1wf56tt(v=vs.85)) 并计算圆周率。[MBTI](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator) 人格测试结果为 [INTJ](https://www.apesk.com/mbti/submit_email_date_cx_m.asp?code=223.73.241.5&user=20206376)。'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -35,12 +35,15 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: 工作效率
+- name: 编码效率
   percentage: 90
   color: yellow
+- name: 代码性能
+  percentage: 95
+  color: green
 - name: 自学能力
   percentage: 95
   color: pink
-- name: 工作热情
+- name: 解决问题
   percentage: 85
   color: blue

@@ -11,11 +11,21 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: 中国科学技术大学
+    url: "https://www.ustc.edu.cn"
+    location: 安徽合肥
+    overview: 中国科学技术大学是中国科学院所属的一所以前沿科学和高新技术为主，兼有医学、特色管理和人文学科的综合性全国重点大学。（[211工程](https://baike.baidu.com/item/211%E5%B7%A5%E7%A8%8B)、[985工程](https://baike.baidu.com/item/985%E5%B7%A5%E7%A8%8B)、[九校联盟](https://baike.baidu.com/item/%E4%B9%9D%E6%A0%A1%E8%81%94%E7%9B%9F)、[华东五校](https://baike.baidu.com/item/%E5%8D%8E%E4%B8%9C%E4%BA%94%E6%A0%A1)）
+  positions:
+  - designation: 全日制软件工程硕士
+    start: 2018年9月
+    end: 2021年6月
+
+- company:
     name: 澳新银行营运服务（成都）有限公司
     url: "https://www.anz.com.au/"
     location: 四川成都
     # company overview
-    overview: 从事与银行业务有关的系统、软件和信息技术的开发、销售、维护并提供相关技术支持；银行业务相关的数据处理、数据分析、对账、数据结算和后台服务（涉及许可经营的凭许可证经营）。
+    overview: 从事与银行业务有关的系统、软件和信息技术的开发、销售、维护并提供相关技术支持；银行业务相关的数据处理、数据分析、对账、数据结算和后台服务。（[澳洲最大银行之一](https://corporatefinanceinstitute.com/resources/careers/companies/top-australian-banks/)、[世界500强](https://fortune.com/global500/2019/australia-new-zealand-banking-group/)）
   positions:
   - designation: Golang后端开发实习生
     start: 2019年11月
@@ -24,34 +34,25 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - 资产管理系统后端 API 的设计、开发、测试与维护，编写通用的工具函数，优化性能较差的 API
+    - 数据库表结构及索引的设计，优化 SQL 语句，使用全文索引
+    - 利用反射重构项目，增加代码可读性，减少模版代码
+    - Docker 镜像优化构建与组织
+    - Jenkins 脚本编写，实现代码检查与服务部署
+    - 担任项目运维，编写编译与部署脚本，手动部署，排查生产Bug
+    
 
 - company:
-    name: 西门子工业自动化产品（成都）有限公司.
+    name: 西门子工业自动化产品（成都）有限公司
     url: "https://www.siemens.com/"
     location: 四川成都
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: 从集成化传动和智能控制器到创新的 PLM 软件工业领域，目标是生产率、效率、速度和质量的提高，使公司在通向工业未来的道路上获得更高竞争力。（[世界500强](https://fortune.com/company/siemens/global500/)）
   positions:
   - designation: 自动化测试实习生
     start: 2019年6月
     end: 2019年10月
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - 使用 [Jemmy](http://wiki.netbeans.org/Jemmy) 框架完成大型电路编程软件 [LOGO! Soft Comfort](https://new.siemens.com/cn/zh/products/automation/systems/industrial/plc/logo/logo-software.html#LOGOSoftComfort) 的自动化测试的底层工具类编写
+    - 使用 Swing 创建图形化界面应用，可编译并运行远程测试类的字节码，并显示进度
+    - 使用 [ABP](https://aspnetboilerplate.com/) 框架构建一个具有上传下载 share folder 中的附件、登录、权限管理、备份附件的网页
 
-- company:
-    name: 中国科学技术大学.
-    url: "https://www.ustc.edu.cn"
-    location: 安徽合肥
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: 软件工程硕士
-    start: 2018年9月
-    end: 2021年6月
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
