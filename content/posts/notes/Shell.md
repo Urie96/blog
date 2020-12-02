@@ -1,3 +1,24 @@
+---
+title: Shell
+date: 2020-12-01T16:51:55+08:00
+hero: /images/anonymous/3.svg
+menu:
+  sidebar:
+    name: Shell
+    parent: notes
+    # weight: 10
+---
+
+### Echo
+
+1. `echo $VAR` 命令会去除多余的空格，应该使用 `echo "$VAR"`
+
+### Gzip Folder
+
+Usage: `./gzip.sh public`
+Source Code:
+
+```bash
 match="\.(html|js|css|svg)$"
 size=10240
 
@@ -40,3 +61,4 @@ gzipfolder() {
 }
 
 gzipfolder "$(pwd)/$1"
+```

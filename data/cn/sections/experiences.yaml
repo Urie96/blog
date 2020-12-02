@@ -37,9 +37,9 @@ experiences:
     - 资产管理系统后端 API 的设计、开发、测试与维护，编写通用的工具函数，优化性能较差的 API
     - 数据库表结构及索引的设计，优化 SQL 语句，使用全文索引
     - 利用反射重构项目，增加代码可读性，减少模版代码
-    - Docker 镜像优化构建与组织
-    - Jenkins 脚本编写，实现代码检查与服务部署
-    - 担任项目运维，编写编译与部署脚本，手动部署，排查生产Bug
+    - "[Docker](https://www.docker.com/) 镜像优化构建与组织"
+    - "[Jenkins](https://www.jenkins.io/) 脚本编写，实现代码检查与服务部署"
+    - 担任项目运维，编写编译与部署脚本，手动部署，排查生产 Bug
     
 
 - company:
@@ -53,6 +53,6 @@ experiences:
     end: 2019年10月
     responsibilities:
     - 使用 [Jemmy](http://wiki.netbeans.org/Jemmy) 框架完成大型电路编程软件 [LOGO! Soft Comfort](https://new.siemens.com/cn/zh/products/automation/systems/industrial/plc/logo/logo-software.html#LOGOSoftComfort) 的自动化测试的底层工具类编写
-    - 使用 Swing 创建图形化界面应用，可编译并运行远程测试类的字节码，并显示进度
+    - 使用 [Swing](https://docs.oracle.com/javase/tutorial/uiswing/index.html) 创建图形化界面应用，可编译并运行远程测试类的字节码，并显示进度
     - 使用 [ABP](https://aspnetboilerplate.com/) 框架构建一个具有上传下载 share folder 中的附件、登录、权限管理、备份附件的网页
 

@@ -2,11 +2,10 @@
 title: 今天，我开始写博客啦
 date: 2020-11-30
 weight: 1
-# hero: /posts/introduction/hero.svg
+hero: /images/hi.svg
 menu:
   sidebar:
     name: 欢迎
-    identifier: welcome
     weight: 1
 ---
 

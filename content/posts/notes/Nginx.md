@@ -1,23 +1,22 @@
 ---
 title: Nginx
 date: 2020-11-30
-# hero: /posts/introduction/hero.svg
+hero: /images/anonymous/2.svg
 menu:
   sidebar:
     name: Nginx
-    identifier: notes-nginx
     parent: notes
-    weight: 10
+    # weight: 10
 ---
 
 ### Installation
 
 See [official documentation](http://nginx.org/en/download.html).
 
-```console
+```bash
 $ wget http://nginx.org/download/nginx-1.19.5.tar.gz
 $ tar xf nginx-1.19.5.tar.gz
-$ cd nginx-1.19.5.tar.gz
+$ cd nginx-1.19.5
 $ ./configure --with-http_v2_module --with-http_gzip_static_module --with-http_ssl_module
 $ make
 $ make install
@@ -29,7 +28,7 @@ $ ln -s $(pwd)/nginx /usr/local/bin/nginx
 
 See [official documentation](http://nginx.org/en/docs/switches.html).
 
-```console
+```bash
 $ nginx # boot
 $ nginx -s reload
 $ nginx -s stop
@@ -42,7 +41,7 @@ See [official documentation](http://nginx.org/en/docs/http/ngx_http_v2_module.ht
 
 #### 1. Install nginx module
 
-```sh
+```bash
 $ cd where install package is
 $ ./configure --with-http_ssl_module --with-http_v2_module
 ```
@@ -53,14 +52,12 @@ update `server` in `default.conf`, please note `ssl_ciphers`[^ssl_ciphers]
 
 [^ssl_ciphers]: 如果没有这项，Chrome 会报错 `ERR_HTTP2_INADEQUATE_TRANSPORT_SECURITY`，表示协议安全性不足
 
-```nginx
-listen       443 ssl http2;
-server_name  sso.*;
-
+```
+listen              443 ssl http2;
+server_name         sso.*;
 keepalive_timeout   70;
-
 ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;
-ssl_ciphers "EECDH+AESGCM:EDH+AESGCM:ECDHE-RSA-AES128-GCM-SHA256:AES256+EECDH:DHE-RSA-AES128-GCM-SHA256:AES256+EDH:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4";
+ssl_ciphers         "EECDH+AESGCM:EDH+AESGCM:ECDHE-RSA-AES128-GCM-SHA256:AES256+EECDH:DHE-RSA-AES128-GCM-SHA256:AES256+EDH:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4";
 ssl_certificate     /root/nginx/cert/4740775_sso.sweetlove.top.pem;
 ssl_certificate_key /root/nginx/cert/4740775_sso.sweetlove.top.key;
 ssl_session_cache   shared:SSL:10m;
@@ -76,12 +73,12 @@ To compress HTTP response.
 See [official documentation](http://nginx.org/en/docs/http/ngx_http_gzip_module.html).  
 Gzip module is installed by default. Update `server` in `default.conf`.
 
-```nginx
-gzip on;
+```
+gzip              on;
 gzip_http_version 1.0;
-gzip_proxied any;
-gzip_types application/json;
-gzip_min_length 10240;
+gzip_proxied      any;
+gzip_types        application/json;
+gzip_min_length   10240;
 ```
 
 <br />
@@ -92,7 +89,7 @@ gzip_min_length 10240;
 See [official documentation](http://nginx.org/en/docs/http/ngx_http_gzip_static_module.html).  
 Run `./configure --with-http_gzip_static_module && make`to install gzip static module, and update `server` in `default.conf`.
 
-```nginx
-gzip_static on;
+```
+gzip_static       on;
 gzip_http_version 1.0;
 ```

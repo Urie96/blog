@@ -29,7 +29,7 @@ projects:
   timeline: "2020/10 - 2020/11"
   url: https://book.sweetlove.top
   # repo: https://github.com/Urie96/hackbook
-  summary: todo
+  summary: "使用 [SuperAgent](https://github.com/visionmedia/superagent) 爬取"
   tags: ["front-end","back-end","crawler"]
 
 - name: Northern Star
@@ -47,7 +47,7 @@ projects:
   summary: todo
   tags: ["front-end","back-end"]
 
-- name: wx-mini-program
+- name: wx-subscription-account
   logo: /images/sections/projects/wx-mini-program.svg
   role: 独立开发者
   timeline: "2020/5 - 2020/6"

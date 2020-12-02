@@ -19,9 +19,47 @@ languages:
 # Control TOC depth
 markup:
   tableOfContents:
-    startLevel: 2
+    startLevel: 3
     endLevel: 6
     ordered: false
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    # lists a set of line numbers or line number ranges to be highlighted.
+    hl_Lines: ""
+
+    # Configure anchors on line numbers. Valid values are true or false;
+    # anchorLineNos: true
+
+    # Configure a prefix for the anchors on line numbers. Will be suffixed with -, 
+    # so linking to the line number 1 with the option lineanchors=prefix adds the anchor prefix-1 to the page.
+    # lineAnchors: "prefix"
+    lineNoStart: 1
+    # configure line numbers. Valid values are true, false, table, or inline.
+    # false will turn off line numbers if it’s configured to be on in site config.
+    # New in v0.60.0 table will give copy-and-paste friendly code blocks.
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false
+    style: monokailight # https://xyproto.github.io/splash/docs/all.html
+    tabWidth: 4
 
 # Enable global emoji support
 enableEmoji: true

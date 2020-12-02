@@ -4,4 +4,5 @@
 
 docker run --rm -it -v $(pwd):/src klakegg/hugo:0.78.2-ext-alpine --minify
 ./gzip.sh public
+rm -rf /root/nginx/html/blog
 mv -f ./public/ /root/nginx/html/blog
