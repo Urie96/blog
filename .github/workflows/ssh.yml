@@ -16,6 +16,7 @@ jobs:
           password: ${{ secrets.PASSWORD}}
           command: |
             cd /root/blog
+            git checkout .
             git pull
             git submodule update --init
             bash ./deploy.sh

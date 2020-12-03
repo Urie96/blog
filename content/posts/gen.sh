@@ -3,7 +3,7 @@ title=$1
 template="---
 title: "$title"
 date: $(date +"%Y-%m-%dT%H:%M:%S+08:00")
-# hero: /images/.svg
+# hero: /images/anonymous/.svg
 menu:
   sidebar:
     name: "$title"

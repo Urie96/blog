@@ -5,16 +5,18 @@ theme: "toha"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
-defaultContentLanguage: cn
+defaultContentLanguage: zh
 languages:
   en:
     languageName: English
     weight: 2
     title: Urie's Homepage
-  cn:
+    flag: "/images/england.svg"
+  zh:
     languageName: 简体中文
     weight: 1
     title: 杨锐的个人主页
+    flag: /images/china.svg
 
 # Control TOC depth
 markup:
@@ -58,7 +60,7 @@ markup:
     lineNos: false
     lineNumbersInTable: true
     noClasses: false
-    style: monokailight # https://xyproto.github.io/splash/docs/all.html
+    # style: xcode # https://xyproto.github.io/splash/docs/all.html
     tabWidth: 4
 
 # Enable global emoji support

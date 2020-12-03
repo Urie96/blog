@@ -29,7 +29,7 @@ projects:
   timeline: "2020/10 - 2020/11"
   url: https://book.sweetlove.top
   # repo: https://github.com/Urie96/hackbook
-  summary: "使用 [SuperAgent](https://github.com/visionmedia/superagent) 爬取"
+  summary: "独立完成的包含[极客时间](https://time.geekbang.org/)及[拉勾教育](https://kaiwu.lagou.com/)两大知识付费平台的所有付费专栏的项目(*仅供个人学习使用*)。寻找漏洞并使用 [NodeJS](https://nodejs.org/en/) 爬取付费专栏，编写异步池以避免网关拒绝服务，灵活分析并制定反反爬策略。前端使用了 [Vue](https://cn.vuejs.org/) 虚拟 DOM 渲染，[Vue Router](https://router.vuejs.org/zh/) 管理路由跳转，[Element](https://element.eleme.io/) 作为 UI 组件库，[highlight.js](https://highlightjs.org/) 高亮专栏中的代码，[katex](https://katex.org/) 排版数学公式。后端使用 [express](https://expressjs.com/) 搭建服务，[json-server](https://github.com/typicode/json-server) 快速完成对专栏内容的响应，[JWT](https://jwt.io/introduction/) 完成身份认证，对接 [SSO](https://sso.sweetlove.top) ."
   tags: ["front-end","back-end","crawler"]
 
 - name: Northern Star

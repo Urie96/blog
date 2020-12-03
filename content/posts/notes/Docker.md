@@ -16,7 +16,7 @@ menu:
 `Dockerfile` like this to make base image:
 
 ```docker
-FROM alpine:latest
+FROM alpine:latest AS builder
 apk add --no-cache libc6-compat
 ```
 
