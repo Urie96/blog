@@ -2,7 +2,8 @@
 # docker rm $(docker ps -a | grep "Exited" | awk '{print $1 }')
 # docker rmi $(docker images | grep "none" | awk '{print $3}')
 
-echo "docker run --rm -it -v $PWD:/src klakegg/hugo:0.78.2-ext-alpine --minify"
+set -e
+echo "docker run --rm -v $PWD:/src klakegg/hugo:0.78.2-ext-alpine --minify"
 docker run --rm -it -v $PWD:/src klakegg/hugo:0.78.2-ext-alpine --minify
 echo "./gzip.sh public"
 ./gzip.sh public
