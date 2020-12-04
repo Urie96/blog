@@ -34,7 +34,7 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - 资产管理系统后端 API 的设计、开发、测试与维护，编写通用的工具函数，优化性能较差的 API
+    - "[资产管理系统后端](/posts/projects/northernstar/) API 的设计、开发、测试与维护，编写通用的工具函数，优化性能较差的 API"
     - 数据库表结构及索引的设计，优化 SQL 语句，使用全文索引
     - 利用反射重构项目，增加代码可读性，减少模版代码
     - "[Docker](https://www.docker.com/) 镜像优化构建与组织"

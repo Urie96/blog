@@ -5,8 +5,8 @@ hero: /images/anonymous/5.svg
 menu:
   sidebar:
     name: NorthernStar
-    parent: notes
-    # weight: 10
+    parent: projects
+    weight: 20
 ---
 
 ### Difficulty

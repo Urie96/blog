@@ -29,14 +29,14 @@ projects:
   timeline: "2020/10 - 2020/11"
   url: https://book.sweetlove.top
   # repo: https://github.com/Urie96/hackbook
-  summary: "独立完成的包含[极客时间](https://time.geekbang.org/)及[拉勾教育](https://kaiwu.lagou.com/)两大知识付费平台的所有付费专栏的项目(*仅供个人学习使用*)。寻找漏洞并使用 [NodeJS](https://nodejs.org/en/) 爬取付费专栏，编写异步池以避免网关拒绝服务，灵活分析并制定反反爬策略。前端使用了 [Vue](https://cn.vuejs.org/) 虚拟 DOM 渲染，[Vue Router](https://router.vuejs.org/zh/) 管理路由跳转，[Element](https://element.eleme.io/) 作为 UI 组件库，[highlight.js](https://highlightjs.org/) 高亮专栏中的代码，[katex](https://katex.org/) 排版数学公式。后端使用 [express](https://expressjs.com/) 搭建服务，[json-server](https://github.com/typicode/json-server) 快速完成对专栏内容的响应，[JWT](https://jwt.io/introduction/) 完成身份认证，对接 [SSO](https://sso.sweetlove.top) ."
+  summary: "独立完成的项目，包含[极客时间](https://time.geekbang.org/)及[拉勾教育](https://kaiwu.lagou.com/)两大知识付费平台的所有付费专栏(*仅供个人学习使用*)。寻找漏洞并使用 [NodeJS](https://nodejs.org/en/) 爬取付费专栏，编写异步池以避免网关拒绝服务，灵活分析并制定反反爬策略。前端使用了 [Vue](https://cn.vuejs.org/) 虚拟 DOM 渲染，[Vue Router](https://router.vuejs.org/zh/) 管理路由跳转，[Element](https://element.eleme.io/) 作为 UI 组件库，[highlight.js](https://highlightjs.org/) 高亮专栏中的代码，[katex](https://katex.org/) 排版数学公式。后端使用 [express](https://expressjs.com/) 搭建服务，[json-server](https://github.com/typicode/json-server) 快速完成对专栏内容的响应，[JWT](https://jwt.io/introduction/) 完成身份认证，对接 [SSO](https://sso.sweetlove.top) 。"
   tags: ["front-end","back-end","crawler"]
 
 - name: Northern Star
   logo: /images/sections/projects/northern-star.png
   role: 开发者
   timeline: "2019/11 - 2020/6"
-  summary: todo
+  summary: "实习项目，公司内部使用的资产管理系统，方便 IT 管理员快速查找、录入、分发、盘点、归还员工的资产，将一整套资产管理流程转到线上而不用四处办理手续，我负责后端部分。使用 [Go-Kit](https://github.com/go-kit/kit) 快速搭建微服务架构，[gRPC](https://www.grpc.io/) 实现服务间通信，[GORM](https://gorm.io/) 实现数据库操作的封装"
   tags: ["back-end","intern"]
 
 - name: SSO
@@ -47,14 +47,6 @@ projects:
   summary: todo
   tags: ["front-end","back-end"]
 
-- name: wx-subscription-account
-  logo: /images/sections/projects/wx-mini-program.svg
-  role: 独立开发者
-  timeline: "2020/5 - 2020/6"
-  repo: https://github.com/Urie96/weixin
-  summary: todo
-  tags: ["back-end"]
-
 - name: Love
   logo: /images/sections/projects/love.svg
   role: 独立开发者
@@ -62,3 +54,11 @@ projects:
   url: https://huyue.sweetlove.top
   summary: todo
   tags: ["front-end"]
+
+- name: wx-subscription-account
+  logo: /images/sections/projects/wx-mini-program.svg
+  role: 独立开发者
+  timeline: "2020/5 - 2020/6"
+  repo: https://github.com/Urie96/weixin
+  summary: todo
+  tags: ["back-end"]

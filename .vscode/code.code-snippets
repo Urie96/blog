@@ -35,5 +35,11 @@
 			"    # weight: 10",
 			"---"
 		],
+	},
+	"link":{
+		"prefix": "lnk",
+		"scope": "markdown",
+		"body": "[$1]($2) $3"
 	}
+	
 }

@@ -72,11 +72,11 @@ params:
   # GitHub repo URL of your site
   gitRepo: https://github.com/Urie96/blog
 
-  gitalk:
-    clientId: 3963ddedeeb12de5a5e8
-    clientSecret: 4c8d7b565e6df6816a4f58caf1e0e615d5f80fd3
-    repo: blog
-    owner: Urie96
+  # gitalk:
+  #   clientId: 3963ddedeeb12de5a5e8
+  #   clientSecret: 4c8d7b565e6df6816a4f58caf1e0e615d5f80fd3
+  #   repo: CommentsOnly
+  #   owner: Urie96
     
 
   # specify whether you want to write some blog posts or not
