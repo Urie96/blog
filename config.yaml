@@ -73,8 +73,8 @@ params:
   gitRepo: https://github.com/Urie96/blog
 
   gitalk:
-    clientId: 3963ddedeeb12de5a5e8
-    clientSecret: 4c8d7b565e6df6816a4f58caf1e0e615d5f80fd3
+    clientId: c03723c5d612fc90769c
+    clientSecret: 8cf6e7b161ee76fb9fbf5c3475f981e2044fafa1
     repo: blog
     owner: Urie96
     
